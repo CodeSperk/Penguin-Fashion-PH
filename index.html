@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion</title>
+
+  <!-- google font: Bebas & Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-bebas {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+    }
+
+    .font-roboto {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+
+</head>
+
+<body class="font-roboto font-normal text-base">
+  <header class="bg-amber-50 w-full">
+    <!-- Headers Content -->
+    <div class="max-w-7xl mx-auto pt-10 pb-10 lg:pb-16 px-4 md:px-14">
+      <nav></nav>
+
+      <div class="lg:flex space-y-12 items-center justify-between">
+        <div>
+          <h1 class="font-bebas text-6xl md:text-7xl uppercase"><span class="text-yellow-500">Be the Penguins</span>
+            <br>
+            of Winter</h1>
+
+          <p class="max-w-72 lg:max-w-80">Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry.</p>
+
+          <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg mt-2 uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+        </div>
+
+        <img class="lg:mr-8 w-4/5 md:w-2/3 lg:w-1/2 mx-auto" src="./images/banner-model.png" alt="">
+
+      </div>
+
+
+    </div>
+  </header>
+
+  <!-- Main Section
+  ===================== -->
+  <main class="max-w-7xl mx-auto px-4 lg:px-14  mb-48">
+
+    <!-- Womens Jacket -->
+    <section class="mt-5">
+      <h2 class="font-bebas uppercase text-4xl md:text-5xl mt-12 text-center md:text-start">Woman Jacket</h2>
+      <!-- Cards Container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center flex-wrap gap-7 mt-5">
+
+        <!-- Card-1 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-1.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Yellow Coat jacket</h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Card-2 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-3.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Ladies Jacket</h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Card-3 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-2.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Woman Leather Jacket </h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- Men Jacket -->
+    <section class="mt-24">
+      <h2 class="font-bebas uppercase text-4xl md:text-5xl mt-12 text-center md:text-start">Man Jacket</h2>
+      <!-- Cards Container -->
+      <div class="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center flex-wrap gap-7">
+
+        <!-- Card-1 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-4.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Snowboard Jacket Mens</h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Card-2 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-5.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Man Leather Jackets</h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Card-3 -->
+        <div class="p-5 shadow-md rounded-2xl min-w-80">
+          <div class="bg-slate-200 w-full p-5">
+            <img src="./images/jacket-6.png" alt="Jacket" class="w-full">
+          </div>
+          <h3 class="capitalize font-bold text-2xl mt-4">Man Casual Jackets</h3>
+          <p class="my-3">Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.</p>
+          <div class="flex justify-between items-center">
+            <p class="text-yellow-500 font-extrabold text-4xl">$234</p>
+            <button
+            class="bg-gradient-to-b from-lime-300 to-lime-900 text-white flex items-center px-8 py-4 rounded-lg uppercase font-medium"><img
+              class="w-6 mr-2" src="./icons/shopping-cart 1.png" alt="button logo"><span>Buy Now</span>
+            </button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+ 
+
+
+  </main>
+
+
+</body>
+
+</html>
